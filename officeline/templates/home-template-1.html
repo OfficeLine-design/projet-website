@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="concept concept-editorial">
+  <section class="concept-hero concept-hero--editorial">
+    <div class="container concept-hero-grid">
+      <div class="concept-hero-copy" data-reveal>
+        <span class="eyebrow">Office Line · {{ t.hero.eyebrow }}</span>
+        <h1>Bienvenue chez Office Line Algérie</h1>
+        <p>{{ t.hero.bureautique.subtitle }}</p>
+        <div class="concept-actions">
+          <a class="btn btn-cta" href="/{{ lang }}/bureautique.html">{{ t.hero.bureautique.cta }} <span aria-hidden="true">→</span></a>
+          <a class="btn btn-cta" href="/{{ lang }}/equipements.html">{{ t.hero.equipements.cta }} <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="concept-proof"><strong dir="ltr">30+</strong><span>{{ t.trust_bar.years }}</span><i></i><strong dir="ltr">4 000+</strong><span>{{ t.trust_bar.products }}</span></div>
+      </div>
+      <div class="concept-hero-media" data-reveal>
+        <img src="/assets/img/og-cover.jpg" alt="Office Line">
+        <div class="concept-float"><span>01 / 03</span><b>Solutions professionnelles</b></div>
+      </div>
+    </div>
+  </section>
+  <section class="concept-section concept-categories">
+    <div class="container">
+      <div class="concept-section-head"><span class="eyebrow">{{ t.about_section.eyebrow }}</span><h2>Des solutions pensées pour avancer.</h2></div>
+      <div class="category-pair">
+        <a class="category-feature category-feature--navy" href="/{{ lang }}/bureautique.html" data-reveal><span>01</span><h3>{{ t.nav.bureautique }}</h3><p>{{ t.hero.bureautique.subtitle }}</p><b>{{ t.hero.bureautique.cta }} <span aria-hidden="true">→</span></b></a>
+        <a class="category-feature category-feature--orange" href="/{{ lang }}/equipements.html" data-reveal><span>02</span><h3>{{ t.nav.equipements }}</h3><p>{{ t.hero.equipements.subtitle }}</p><b>{{ t.hero.equipements.cta }} <span aria-hidden="true">→</span></b></a>
+      </div>
+    </div>
+  </section>
+  <section class="concept-section concept-story"><div class="container concept-story-grid"><div><span class="eyebrow">{{ t.about_section.vision_label }}</span><h2>{{ t.about_section.title }}</h2></div><div><p>{{ t.about_section.paragraph_1 }}</p><p>{{ t.about_section.paragraph_2 }}</p><a class="btn btn-outline" href="/{{ lang }}/contact.html">{{ t.about_section.cta }}</a></div></div></section>
+</div>
+{% endblock %}

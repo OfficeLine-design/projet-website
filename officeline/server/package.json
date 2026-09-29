@@ -1,0 +1,14 @@
+{
+  "name": "officeline-distributor-api",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node.js API for Office Line distributor authentication and gated catalog downloads.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "create-distributor": "node create-distributor.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {}
+}

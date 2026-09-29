@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "site_name": "Office Line",
+    "home_title": "Office Line | Bureautique & Équipements Techniques en Algérie depuis 1993",
+    "home_description": "Distributeur algérien de solutions bureautiques et techniques depuis 1993 : fournitures de bureau, coffres-forts, destructeurs de documents, imprimantes numériques grand format, machines laser Trotec. Devis gratuit.",
+    "bureautique_title": "Bureautique | Fournitures & Équipements de Bureau — Office Line",
+    "bureautique_description": "Catalogue Bureautique Office Line : cachets et Folioteurs, coffres-forts, destructeurs de documents, reliure, plastification, communication visuelle et plus. Plus de 30 ans d'expertise.",
+    "equipements_title": "Équipements Techniques | Impression numérique, Gravure Marquage & Découpe Laser — Office Line",
+    "equipements_description": "Imprimantes Numériques grand format Roland DG, machines laser Trotec, plotters de découpe Roland DG. Distributeur exclusif en Algérie. Découvrez notre gamme d'équipements techniques.",
+    "contact_title": "Contact & Devis | Office Line Algérie",
+    "contact_description": "Contactez Office Line pour un devis gratuit. Divisions à Bordj Menaiel (siège) et Bordj El Kiffan, Alger."
+  },
+  "nav": {
+    "home": "Accueil",
+    "bureautique": "Bureautique",
+    "equipements": "Équipements",
+    "services": "Nos services",
+    "about": "À propos",
+    "about_who": "Qui sommes-nous ?",
+    "about_why": "Pourquoi choisir Office Line ?",
+    "contact": "Contact",
+    "search_placeholder": "Rechercher un article...",
+    "login": "Espace distributeurs",
+    "quote": "Demander un devis"
+  },
+  "hero": {
+    "eyebrow": "Depuis 1993",
+    "welcome_line_1": "Bienvenue chez",
+    "welcome_line_2": "Office Line Algérie",
+    "welcome_text": "Distributeur algérien de solutions bureautiques et techniques depuis 1993 : cachets et folioteurs, fournitures de bureau, coffres-forts, destructeurs de documents, imprimantes numériques grand format, machines laser",
+    "years_label": "ans d'expérience",
+    "products_label": "produits",
+    "distributors_label": "distributeurs partenaires",
+    "bureautique_cta": "Découvrir notre gamme de produits bureautiques",
+    "equipements_cta": "Découvrir nos solutions en équipements techniques",
+    "bureautique": {
+      "title": "Bureautique",
+      "subtitle": "Tout pour votre bureau : fournitures, outillage, équipements de façonnage et coffres-forts pour une sécurité optimale.",
+      "cta": "Découvrir notre gamme de produits"
+    },
+    "equipements": {
+      "title": "Équipements",
+      "subtitle": "Des solutions innovantes de gravure, découpe et marquage laser, impression numérique grand format et publicité.",
+      "cta": "Découvrir nos solutions"
+    }
+  },
+  "trust_bar": {
+    "years": "30+ ans d'expérience",
+    "distributors": "2 000+ distributeurs",
+    "products": "4 000+ produits",
+    "brands": "Marques internationales"
+  },
+  "stats_section": {
+    "eyebrow": "Nos références en chiffres",
+    "title": "Des chiffres qui témoignent de notre expertise",
+    "years": "ans d'expérience",
+    "distributors": "distributeurs",
+    "employees": "employés",
+    "products": "produits",
+    "machines": "machines vendues"
+  },
+  "about_section": {
+    "eyebrow": "Qui sommes-nous ?",
+    "vision_label": "Notre Vision",
+    "mission_label": "Nos Missions",
+    "values_label": "Nos Valeurs",
+    "title": "Facilitez votre quotidien et boostez votre productivité grâce à nos solutions globales, conçues pour les professionnels.",
+    "paragraph_1": "Qu'il s'agisse d'équiper vos bureaux ou de monter un atelier de production, nous vous accompagnons à chaque étape afin de rendre votre environnement de travail plus agréable, davantage organisé et sensiblement plus performant. En vous appuyant sur nos équipements fiables, nos consommables de haute qualité et notre service technique réactif, vous avez la liberté de vous concentrer sur l'essentiel : la réussite de vos projets.",
+    "paragraph_2": "Allégez vos journées et propulsez votre rendement grâce à nos solutions globales, spécialement pensées pour les professionnels. Des fournitures de bureau aux équipements techniques les plus avancés, nous vous guidons à chaque tournant pour transformer votre cadre de travail en un lieu plus agréable, mieux structuré et nettement plus performant.",
+    "vision_text": "Chez Office Line, nous aspirons à être bien plus qu'un fournisseur de solutions bureautiques et techniques : inspirer une évolution de conscience dans une société fondée sur des valeurs humaines, et être un partenaire fidèle et engagé, même dans les périodes les plus difficiles.",
+    "mission_text": "Être à l'écoute de nos clients, les accompagner à chaque étape — du choix des équipements jusqu'au développement de leur entreprise — et fournir un service après-vente irréprochable.",
+    "values_text": "Vision partagée, engagement sans faille et satisfaction du client : les fondements de notre succès depuis 1993.",
+    "cta": "Contactez-nous"
+  },
+  "why_section": {
+    "eyebrow": "Pourquoi choisir Office Line ?",
+    "title": "Pourquoi choisir Office Line ?",
+    "subtitle": "Avec plus de trois décennies d'expérience, une expertise reconnue et une équipe humaine investie, Office Line est le choix idéal pour équiper et accompagner votre succès.",
+    "forces_title": "Nos forces",
+    "forces_text": "Distributeur exclusif Trodat (1993) et Trotec (1997), distributeur officiel Roland DG et ACCO Brands (2008). Un réseau de plus de 2 000 distributeurs et un catalogue de plus de 4 000 produits.",
+    "clients_title": "Nos clients",
+    "clients_text": "90% de notre activité en B2B : papetiers, fournituristes, revendeurs informatiques, imprimeurs, graveurs et fabricants de cachets à travers toute l'Algérie.",
+    "services_title": "Nos services",
+    "services_text": "Garantie de 1 à 25 ans selon les produits, et un service après-vente qualifié : installation, réparation, formation, diagnostic et assistance téléphonique.",
+    "cta": "Visitez nos showrooms"
+  },
+  "locations": {
+    "eyebrow": "Localisation",
+    "title": "Nos divisions",
+    "bem_name": "Division Bordj Menaiel (Siège social)",
+    "bek_name": "Division Bordj El Kiffan (Alger)"
+  },
+  "partners": {
+    "eyebrow": "Nos partenaires en qualité",
+    "title": "Des Collaborations d'Excellence",
+    "subtitle": "Nos partenariats avec des leaders mondiaux sont une garantie de Qualité premium, d'authenticité, de fiabilité irréprochable et d'innovation technologique. Des solutions originales et performantes, sélectionnées pour l'excellence."
+  },
+  "contact_section": {
+    "eyebrow": "Contact",
+    "title": "Contactez-nous dès maintenant pour recevoir votre devis",
+    "home_title": "Comment pouvons-nous vous aider ?",
+    "home_text": "Une question ? Un projet spécifique ? Nos experts sont à votre disposition pour vous conseiller et vous proposer les solutions les plus adaptées à vos besoins professionnels.",
+    "subject_placeholder": "Sélectionnez un sujet",
+    "subjects": ["Demande de devis", "Informations produits", "Prendre un rendez-vous", "Service après-vente", "Autre"],
+    "testimonials_label": "Témoignages clients",
+    "testimonial_slide": "Témoignage",
+    "previous_testimonial": "Témoignage précédent",
+    "next_testimonial": "Témoignage suivant",
+    "pause_testimonials": "Mettre les témoignages en pause",
+    "resume_testimonials": "Reprendre les témoignages",
+    "testimonials": [
+      {"quote": "Des solutions d'aménagement d'une grande flexibilité et un suivi après-vente irréprochable. L'équipe a su s'adapter à nos besoins très spécifiques.", "name": "Sarah Mansouri", "role": "Responsable Achats, InnovGroup"},
+      {"quote": "Leur catalogue produit est le meilleur du marché. Design moderne, robustesse et prix compétitifs. Nos collaborateurs adorent leurs nouveaux espaces.", "name": "Karim Touati", "role": "Fondateur, StartDZ"},
+      {"quote": "Nous avons équipé tous nos bureaux avec Office Line. Leur service client est exceptionnel et le matériel est d'une qualité irréprochable. Un vrai partenaire de confiance.", "name": "Ahmed Benali", "role": "Directeur Général, TechDZ"}
+    ],
+    "form": {
+      "name": "Nom et prénom",
+      "company": "Société",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "subject": "Objet de la demande",
+      "message": "Détaillez votre besoin",
+      "consent": "J'accepte que mes données soient utilisées pour traiter ma demande, conformément à la loi 18-07 relative à la protection des données à caractère personnel.",
+      "submit": "Envoyer le devis",
+      "success": "Merci ! Votre demande a bien été envoyée, notre équipe commerciale vous recontactera rapidement.",
+      "error": "Un champ obligatoire est manquant. Merci de vérifier votre formulaire."
+    }
+  },
+  "contact_page": {
+    "hero_title": "Contactez-nous dès maintenant et discutons de la façon dont nous pouvons vous aider à réussir",
+    "hero_subtitle": "Contactez-nous dès aujourd'hui et découvrez comment nos solutions innovantes peuvent soutenir votre croissance et favoriser le succès de votre entreprise.",
+    "intro": "Contactez-nous dès maintenant et discutons de la façon dont nous pouvons vous aider à réussir.",
+    "info_title": "Informations de contact",
+    "info_text": "Nous sommes toujours là pour discuter. Notre équipe vous accompagne dans le choix, l'installation et le suivi de vos solutions professionnelles.",
+    "why_title": "Pourquoi nous contacter ?",
+    "why_items": ["Devis personnalisé et gratuit", "Nous rendre visite dans nos showrooms", "Conseils d'experts sur le choix du matériel", "Assistance technique et SAV", "Informations sur la disponibilité des stocks"],
+    "form_title": "Envoyez-nous un message",
+    "form_text": "Remplissez le formulaire ci-dessous et notre équipe vous répondra dans les plus brefs délais.",
+    "form_submit": "Envoyer le message",
+    "locations_title": "Nos divisions",
+    "directions": "Itinéraire",
+    "contact_details": "Contact & coordonnées",
+    "phone_label": "Téléphone",
+    "mobile_label": "Mobile",
+    "fax_label": "Fax"
+  },
+  "services": {
+    "meta_title": "Nos services | Office Line Algérie",
+    "meta_description": "Découvrez les services Office Line : installation, formation, diagnostic, réparation, assistance et service après-vente.",
+    "eyebrow": "Qui sommes-nous ?",
+    "hero_title": "Office Line, votre partenaire en solutions bureautiques et technologiques",
+    "hero_text": "Allégez vos journées et boostez votre rendement grâce à nos solutions globales, pensées pour les professionnels. Nous vous accompagnons à chaque étape pour rendre votre environnement de travail plus agréable, mieux structuré et plus performant.",
+    "hero_cta": "Commencer",
+    "hero_image_alt": "L'équipe et les solutions Office Line",
+    "foundations_eyebrow": "Nos fondements",
+    "foundations_title": "Une expertise qui accompagne votre réussite",
+    "foundations_text": "De l'équipement de bureau à l'atelier de production, Office Line combine des marques reconnues, des solutions fiables et un accompagnement humain construit depuis 1993.",
+    "values_eyebrow": "Notre vision, nos missions & nos valeurs",
+    "values_title": "Des principes solides, au service de vos projets",
+    "values_text": "Chaque action reflète notre engagement envers l'excellence, la confiance et la réussite de nos clients.",
+    "vision_title": "Notre vision",
+    "vision_text": "Être bien plus qu'un fournisseur : inspirer une évolution fondée sur des valeurs humaines et rester un partenaire fidèle, même dans les périodes les plus difficiles.",
+    "mission_title": "Nos missions",
+    "mission_text": "Être à l'écoute, comprendre vos besoins spécifiques et fournir un service après-vente irréprochable pour construire des relations durables.",
+    "values_title_short": "Nos valeurs",
+    "values_detail": "Engagement sans faille, solutions fiables et satisfaction du client : les fondements de notre succès.",
+    "support_eyebrow": "Support & accompagnement",
+    "support_title": "Un service qui reste présent après l'achat",
+    "support_text": "Nos équipes techniques vous accompagnent du choix de l'équipement jusqu'à sa pleine mise en service.",
+    "service_cta": "En savoir plus",
+    "service_cards": [
+      {"title": "Installation & mise en service", "text": "Une installation professionnelle, conforme aux recommandations du fabricant, avec tests et prise en main."},
+      {"title": "Formation", "text": "Une formation adaptée pour maîtriser rapidement votre équipement et exploiter tout son potentiel."},
+      {"title": "Diagnostic", "text": "Une expertise technique pour identifier rapidement les problèmes et proposer la bonne intervention."},
+      {"title": "Réparation", "text": "Des réparations qualifiées et une maintenance pensée pour prolonger la durée de vie de vos équipements."},
+      {"title": "Assistance technique", "text": "Un accompagnement personnalisé pour répondre à vos questions et sécuriser votre utilisation au quotidien."},
+      {"title": "Assistance téléphonique", "text": "Un conseiller vous rappelle pour vous guider au moment où vous en avez besoin."}
+    ],
+    "final_eyebrow": "Votre prochain projet",
+    "final_title": "Prêt à transformer votre environnement de travail ?"
+  },
+  "footer": {
+    "tagline": "Votre partenaire de confiance pour toutes vos solutions de bureautique, d'impression numérique, de gravure, de marquage et de découpe laser. Nous fournissons des produits premium et un service de qualité.",
+    "menu_title": "Menu",
+    "contact_title": "Contact",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "compliance": "Conformité à la loi 18-07",
+    "follow": "Suivez-nous",
+    "copyright": "Copyright © 2026 Office Line. Tous droits réservés.",
+    "bem_label": "Division BEM (Siège social)",
+    "bek_label": "Division BEK (Alger)"
+  },
+  "catalog": {
+    "families_intro": "9 familles de produits, sourcées directement auprès des plus grandes marques internationales.",
+    "equip_intro": "5 pôles d'équipements techniques, distribués officiellement en Algérie.",
+    "view_family": "Voir la famille",
+    "subcategories_label": "Sous-catégories",
+    "models_label": "Modèles disponibles",
+    "back_to_catalog": "Retour au catalogue",
+    "filter_label": "Filtrer par famille",
+    "filter_all": "Toutes les familles",
+    "search_placeholder": "Rechercher une sous-catégorie ou un modèle...",
+    "no_results": "Aucun résultat pour cette recherche.",
+    "request_quote": "Demander un devis pour cette gamme",
+    "download_catalog": "Télécharger le catalogue PDF"
+  },
+  "distributor": {
+    "title": "Espace distributeurs",
+    "subtitle": "Accès réservé à nos distributeurs et partenaires agréés.",
+    "id_label": "Identifiant",
+    "password_label": "Mot de passe",
+    "submit": "Se connecter",
+    "no_account": "Pas encore de compte distributeur ?",
+    "request_access": "Demander un accès",
+    "note": "Réservé aux distributeurs enregistrés : précommandes et téléchargement des catalogues complets."
+  },
+  "legal": {
+    "mentions": {
+      "title": "Mentions légales",
+      "meta_title": "Mentions légales | Office Line",
+      "meta_description": "Mentions légales de SARL Office Line, distributeur bureautique et technique en Algérie depuis 1993.",
+      "body": [
+        "SARL Office Line, société de droit algérien au capital de 380 000 000 DA, immatriculée au registre du commerce, dont le siège social est situé Zone d'activité N°01, Bordj Menaiel, Boumerdès, Algérie.",
+        "Le présent site est édité par SARL Office Line. Directeur de la publication : la Gérance de SARL Office Line.",
+        "Hébergement : les informations relatives à l'hébergeur du site seront communiquées sur demande à l'adresse commercial@officeline-dz.com.",
+        "L'ensemble des contenus (textes, images, logos, marques) présents sur ce site sont la propriété de SARL Office Line ou de leurs propriétaires respectifs (Trodat, Trotec, Roland DG, ACCO Brands, Rexel, Ideal, Executive Safe, Reiner, IBICO, Leitz, Poli-tape, Thermoflan) et ne peuvent être reproduits sans autorisation préalable."
+      ]
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "meta_title": "Politique de confidentialité | Office Line",
+      "meta_description": "Politique de confidentialité et de protection des données personnelles de SARL Office Line.",
+      "body": [
+        "SARL Office Line attache une grande importance à la protection de vos données personnelles et s'engage à les traiter avec la plus grande confidentialité.",
+        "Les données collectées via les formulaires de ce site (contact, demande de devis, espace distributeurs) sont utilisées exclusivement pour traiter votre demande, assurer le suivi commercial et améliorer nos services.",
+        "Ces données ne sont ni vendues, ni cédées, ni louées à des tiers. Elles sont conservées pour la durée nécessaire au traitement de votre demande et à la relation commerciale.",
+        "Conformément à la loi n°18-07 du 10 juin 2018 relative à la protection des personnes physiques dans le traitement des données à caractère personnel, vous disposez d'un droit d'accès, de rectification et d'opposition sur vos données. Pour exercer ce droit, contactez-nous à commercial@officeline-dz.com.",
+        "Ce site peut utiliser des cookies techniques nécessaires à son bon fonctionnement (préférence de langue, session du formulaire). Aucun cookie publicitaire tiers n'est utilisé sans votre consentement."
+      ]
+    },
+    "compliance": {
+      "title": "Conformité à la loi 18-07",
+      "meta_title": "Conformité à la loi 18-07 | Office Line",
+      "meta_description": "Engagement de SARL Office Line en matière de conformité à la loi algérienne 18-07 sur la protection des données personnelles.",
+      "body": [
+        "La loi n°18-07 du 10 juin 2018 relative à la protection des personnes physiques dans le traitement des données à caractère personnel encadre la collecte et le traitement des données personnelles en Algérie.",
+        "SARL Office Line s'engage à ne collecter que les données strictement nécessaires au traitement de vos demandes (devis, contact, accès distributeur), à sécuriser ces données et à ne les transmettre à aucun tiers non autorisé.",
+        "Nos destructeurs de documents de la gamme Rexel et Ideal, présentés dans notre catalogue Bureautique, sont d'ailleurs une réponse concrète aux exigences de cette loi pour la destruction sécurisée des documents contenant des données sensibles.",
+        "Pour toute question relative au traitement de vos données ou pour exercer vos droits, notre équipe reste à votre disposition à l'adresse commercial@officeline-dz.com."
+      ]
+    }
+  },
+  "common": {
+    "read_more": "En savoir plus",
+    "all_rights": "Tous droits réservés",
+    "phone": "Tél",
+    "fax": "Fax",
+    "mobile": "Mobile",
+    "email": "E-mail",
+    "address": "Adresse"
+  }
+}

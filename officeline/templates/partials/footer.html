@@ -1,0 +1,70 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="/{{ lang }}/index.html#top" class="brand brand--footer">
+        <img class="brand-logo" src="/assets/img/logo-official.png" alt="Office Line">
+      </a>
+      <p>{{ t.footer.tagline }}</p>
+      <div class="social-links" aria-label="{{ t.footer.follow }}">
+        <a href="{{ company.social.facebook }}" aria-label="Facebook" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-3.3 0-5 1.9-5 5v3H6v4h3v6h4v-6h3.2l.8-4H13V9c0-.7.3-1 1-1Z"/></svg>
+        </a>
+        <a href="{{ company.social.linkedin }}" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8H2v13h3V8Zm.2-4A1.8 1.8 0 1 0 1.6 4a1.8 1.8 0 0 0 3.6 0ZM22 13.6c0-3.9-2.1-5.8-4.9-5.8-2.2 0-3.2 1.2-3.8 2v-1.8h-3V21h3v-7.2c0-1.9.4-3.7 2.7-3.7 2.2 0 2.2 2.1 2.2 3.8V21h3v-7.4Z"/></svg>
+        </a>
+        <a href="{{ company.social.instagram }}" aria-label="Instagram" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" class="icon-fill"/></svg>
+        </a>
+        <a href="{{ company.social.tiktok }}" aria-label="TikTok" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3h3.1c.3 1.7 1.3 3 2.9 3.7v3.2c-1.1 0-2.1-.3-3-.8v6.1c0 3.5-2.7 5.8-6.1 5.8-3.1 0-5.4-2.2-5.4-5.1 0-3.3 2.7-5.4 5.7-5.4.3 0 .7 0 1 .1v3.2c-.3-.1-.6-.2-1-.2-1.2 0-2.4.8-2.4 2.2 0 1.2 1 2.1 2.2 2.1 1.6 0 2.5-1 2.5-2.8V3Z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h3>{{ t.footer.menu_title }}</h3>
+      <ul>
+        <li><a href="/{{ lang }}/index.html">{{ t.nav.home }}</a></li>
+        <li><a href="/{{ lang }}/bureautique.html">{{ t.nav.bureautique }}</a></li>
+        <li><a href="/{{ lang }}/equipements.html">{{ t.nav.equipements }}</a></li>
+        <li><a href="/{{ lang }}/index.html#about">{{ t.nav.about }}</a></li>
+        <li><a href="/{{ lang }}/contact.html">{{ t.nav.contact }}</a></li>
+        <li><a href="/{{ lang }}/mentions-legales.html">{{ t.footer.legal }}</a></li>
+        <li><a href="/{{ lang }}/confidentialite.html">{{ t.footer.privacy }}</a></li>
+        <li><a href="/{{ lang }}/conformite-18-07.html">{{ t.footer.compliance }}</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>{{ t.footer.bem_label }}</h3>
+      {% set bem = company.locations[0] %}
+      <address>
+        {{ bem.address }}<br>
+        <a href="mailto:{{ bem.email }}">{{ bem.email }}</a><br>
+        {{ t.common.phone }}&nbsp;: <span dir="ltr">{{ bem.phone }}</span><br>
+        {{ t.common.fax }}&nbsp;: <span dir="ltr">{{ bem.fax }}</span><br>
+        {{ t.common.mobile }}&nbsp;: <span dir="ltr">{{ bem.mobile }}</span>
+      </address>
+    </div>
+
+    <div class="footer-col">
+      <h3>{{ t.footer.bek_label }}</h3>
+      {% set bek = company.locations[1] %}
+      <address>
+        {{ bek.address }}<br>
+        <a href="mailto:{{ bek.email }}">{{ bek.email }}</a><br>
+        {{ t.common.phone }}&nbsp;: <span dir="ltr">{{ bek.phone }}</span><br>
+        {{ t.common.fax }}&nbsp;: <span dir="ltr">{{ bek.fax }}</span><br>
+        {{ t.common.mobile }}&nbsp;: <span dir="ltr">{{ bek.mobile }}</span>
+      </address>
+    </div>
+  </div>
+
+  <div class="footer-bottom container">
+    <p>{{ t.footer.copyright }}</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="{{ 'Haut de page' if lang=='fr' else ('Back to top' if lang=='en' else 'أعلى الصفحة') }}">
+  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+</button>

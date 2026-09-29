@@ -1,0 +1,57 @@
+{
+  "legal_name": "SARL Office Line",
+  "founded": 1993,
+  "capital": "380 000 000 DA (2 500 000 €)",
+  "domain": "https://officeline-dz.com",
+  "social": {
+    "facebook": "https://facebook.com/officelinedz",
+    "linkedin": "https://linkedin.com/company/officeline-dz",
+    "instagram": "https://instagram.com/officelinedz",
+    "tiktok": "https://www.tiktok.com/@officeline_algerie"
+  },
+  "locations": [
+    {
+      "id": "bem",
+      "name": "Division Bordj Menaiel (Siège social)",
+      "short": "BEM",
+      "address": "Zone d'activité N°01, Bordj Menaiel, Boumerdès, Algérie",
+      "email": "commercial@officeline-dz.com",
+      "phone": "024 98 31 23",
+      "fax": "024 98 30 41",
+      "mobile": "0770 53 10 66 / 0770 14 65 95",
+      "lat": 36.7539,
+      "lng": 3.7264
+    },
+    {
+      "id": "bek",
+      "name": "Division Bordj El Kiffan (Alger)",
+      "short": "BEK",
+      "address": "Zone d'activité KAIDI, Lot N°55, Bordj El Kiffan, Algérie",
+      "email": "commercial.alger@officeline-dz.com",
+      "phone": "023 74 93 52 / 94 · 023 74 94 38 / 76",
+      "fax": "023 74 93 01",
+      "mobile": "0770 14 65 97 / 0770 80 75 19",
+      "lat": 36.7539,
+      "lng": 3.1897
+    }
+  ],
+  "brands": [
+    "Trodat", "Trotec", "Roland DG", "ACCO Brands", "Rexel", "Executive Safe", "IBICO", "Leitz", "nobo"
+  ],
+  "partner_logos": [
+    {"name": "Trodat", "image": "partner-9.png", "description": "Autriche · Depuis 1912 · Tampons et solutions de marquage."},
+    {"name": "Trotec", "image": "partner-12.png", "description": "Autriche · Technologie laser · Gravure, découpe et marquage."},
+    {"name": "Trolase", "image": "partner-13.png", "description": "Gamme laser · Matières et consommables pour la gravure."},
+    {"name": "Roland", "image": "partner-14.png", "description": "Japon · Depuis 1981 · Impression et découpe grand format."},
+    {"name": "ACCO Brands", "image": "partner-4.png", "description": "États-Unis · Depuis 1903 · Fournitures et accessoires de bureau."},
+    {"name": "GBC", "image": "partner-5.png", "description": "Royaume-Uni · Reliure, plastification et finition documentaire."},
+    {"name": "Rexel", "image": "partner-2.png", "description": "Royaume-Uni · Fournitures, classement et organisation du bureau."},
+    {"name": "Rapid", "image": "partner-6.png", "description": "Suède · Depuis 1936 · Agrafage, fixation et outils professionnels."},
+    {"name": "ibico", "image": "partner-7.png", "description": "Europe · Machines de bureau, reliure et finition documentaire."},
+    {"name": "Leitz", "image": "partner-8.png", "description": "Allemagne · Depuis 1871 · Classement et organisation premium."},
+    {"name": "nobo", "image": "partner-1.png", "description": "Royaume-Uni · Communication visuelle et équipements de présentation."},
+    {"name": "Esselte", "image": "partner-3.png", "description": "Suède · Depuis 1913 · Classement et fournitures de bureau."},
+    {"name": "ExecutiveSafe", "image": "partner-10.png", "description": "Sécurité professionnelle · Coffres-forts et protection des biens."},
+    {"name": "GoldRing", "image": "partner-11.png", "description": "Solutions de bureau · Accessoires et équipements professionnels."}
+  ]
+}

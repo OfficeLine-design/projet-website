@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-hero page-hero--compact">
+  <div class="container">
+    <span class="eyebrow eyebrow--light" data-reveal>{{ t.nav.login }}</span>
+    <h1 data-reveal>{{ t.distributor.title }}</h1>
+  </div>
+</section>
+
+<section class="section distributor-section">
+  <div class="container distributor-grid">
+    <div id="distributorLoginCard">
+    <form class="login-form" id="distributorForm" data-reveal novalidate>
+      <p class="login-note">{{ t.distributor.subtitle }}</p>
+      <label>{{ t.distributor.id_label }} *
+        <input type="text" name="username" required autocomplete="username">
+      </label>
+      <label>{{ t.distributor.password_label }} *
+        <input type="password" name="password" required autocomplete="current-password">
+      </label>
+      <button type="submit" class="btn btn-cta">{{ t.distributor.submit }}</button>
+      <p class="form-feedback" id="loginFeedback" role="status" aria-live="polite"></p>
+      <p class="login-help">{{ t.distributor.no_account }} <a href="/{{ lang }}/contact.html">{{ t.distributor.request_access }}</a></p>
+    </form>
+    </div>
+
+    <div id="distributorPanel" class="login-form distributor-panel" hidden>
+      <p class="login-note">
+        {{ 'Bienvenue' if lang=='fr' else ('Welcome' if lang=='en' else 'مرحباً') }},
+        <strong data-distributor-name></strong>
+      </p>
+      <h3>{{ t.catalog.download_catalog }}</h3>
+      <div class="panel-downloads">
+        <button class="btn btn-outline btn-sm" data-download-family="bureautique">{{ t.nav.bureautique }}</button>
+        <button class="btn btn-outline btn-sm" data-download-family="equipements">{{ t.nav.equipements }}</button>
+      </div>
+      <button class="btn btn-sm" data-logout style="margin-top:20px;background:var(--paper);border:1px solid var(--line);">
+        {{ 'Se déconnecter' if lang=='fr' else ('Log out' if lang=='en' else 'تسجيل الخروج') }}
+      </button>
+    </div>
+
+    <aside class="distributor-aside" data-reveal>
+      <h2>{{ t.distributor.note }}</h2>
+      <ul>
+        <li>{{ t.catalog.download_catalog }}</li>
+        <li>{{ 'Précommandes en ligne' if lang=='fr' else ('Online pre-orders' if lang=='en' else 'الطلبات المسبقة عبر الإنترنت') }}</li>
+        <li>{{ 'Historique des commandes' if lang=='fr' else ('Order history' if lang=='en' else 'سجل الطلبات') }}</li>
+      </ul>
+    </aside>
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}<script src="/assets/js/form.js" defer></script>{% endblock %}

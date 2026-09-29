@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="catalog-hero" style="--catalog-color: {{ accent_color }}">
+  <div class="container">
+    <span class="eyebrow eyebrow--light" data-reveal>{{ 'Catalogue' if lang=='fr' else ('Catalog' if lang=='en' else 'الكتالوج') }}</span>
+    <h1 data-reveal>{{ catalog_title }}</h1>
+    <p data-reveal>{{ catalog_intro }}</p>
+    <div class="catalog-actions" data-reveal>
+      <a class="btn btn-cta" href="/{{ lang }}/contact.html">{{ t.catalog.request_quote }}</a>
+      <a class="btn btn-outline-light" href="#" data-catalog-download>{{ t.catalog.download_catalog }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="catalog-toolbar">
+  <div class="container catalog-toolbar-inner" data-reveal>
+    <div class="catalog-search">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="search" id="catalogSearch" placeholder="{{ t.catalog.search_placeholder }}">
+    </div>
+    <div class="catalog-filters" id="catalogFilters">
+      <button class="chip is-active" data-filter="all">{{ t.catalog.filter_all }}</button>
+      {% for f in families %}
+      <button class="chip" data-filter="{{ f.id }}">{{ f.name[lang] or f.name.fr }}</button>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section catalog-list">
+  <div class="container">
+    <p class="catalog-empty" id="catalogEmpty" hidden>{{ t.catalog.no_results }}</p>
+    {% for f in families %}
+    <article class="family-block" id="{{ f.id }}" data-family="{{ f.id }}" data-reveal
+      data-search="{{ (f.name[lang] or f.name.fr) }} {{ f.subcategories|map(attribute=lang)|join(' ') }} {{ f.subcategories|map(attribute='fr')|join(' ') }} {% for s in f.subcategories %}{% if s.models %}{{ s.models|join(' ') }}{% endif %}{% endfor %}">
+      <div class="family-head" style="--fam-color: {{ f.color }}">
+        <span class="family-index">{{ '%02d'|format(loop.index) }}</span>
+        <div>
+          <h2>{{ f.name[lang] or f.name.fr }}</h2>
+          <p>{{ f.tagline[lang] or f.tagline.fr }}</p>
+        </div>
+      </div>
+      <div class="family-body">
+        <h3 class="family-sublabel">{{ t.catalog.subcategories_label }}</h3>
+        <ul class="subcat-grid">
+          {% for s in f.subcategories %}
+          <li>
+            <span class="subcat-name">{{ s[lang] or s.fr }}</span>
+            {% if s.models %}
+            <span class="subcat-models">{% for m in s.models %}<code>{{ m }}</code>{% endfor %}</span>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section cta-banner" data-reveal>
+  <div class="container cta-banner-inner">
+    <h2>{{ t.contact_section.title }}</h2>
+    <a class="btn btn-cta" href="/{{ lang }}/contact.html">{{ t.nav.quote }}</a>
+  </div>
+</section>
+
+{% endblock %}
+{% block scripts %}<script src="/assets/js/catalog.js" defer></script>{% endblock %}

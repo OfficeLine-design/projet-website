@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="services-hero">
+  <div class="container services-hero-grid">
+    <div data-reveal>
+      <span class="eyebrow">{{ t.services.eyebrow }}</span>
+      <h1>{{ t.services.hero_title }}</h1>
+      <p>{{ t.services.hero_text }}</p>
+      <div class="concept-actions">
+        <a class="btn btn-cta" href="/{{ lang }}/contact.html">{{ t.services.hero_cta }} <span aria-hidden="true">&#8594;</span></a>
+        <a class="text-link" href="/{{ lang }}/{{ 'bureautique.html' }}">{{ t.nav.bureautique }} <span aria-hidden="true">&#8599;</span></a>
+      </div>
+    </div>
+    <div class="services-hero-image" data-reveal>
+      <img src="/assets/img/services-hero.png" alt="{{ t.services.hero_image_alt }}">
+    </div>
+  </div>
+</section>
+
+<section class="section services-intro">
+  <div class="container services-intro-grid">
+    <div data-reveal><span class="eyebrow">{{ t.services.foundations_eyebrow }}</span><h2>{{ t.services.foundations_title }}</h2></div>
+    <p data-reveal>{{ t.services.foundations_text }}</p>
+  </div>
+</section>
+
+<section class="section services-values">
+  <div class="container">
+    <div class="section-head" data-reveal><span class="eyebrow">{{ t.services.values_eyebrow }}</span><h2>{{ t.services.values_title }}</h2><p>{{ t.services.values_text }}</p></div>
+    <div class="values-grid">
+      <article class="value-panel" data-reveal><span>01</span><h3>{{ t.services.vision_title }}</h3><p>{{ t.services.vision_text }}</p></article>
+      <article class="value-panel value-panel--sky" data-reveal><span>02</span><h3>{{ t.services.mission_title }}</h3><p>{{ t.services.mission_text }}</p></article>
+      <article class="value-panel value-panel--light" data-reveal><span>03</span><h3>{{ t.services.values_title_short }}</h3><p>{{ t.services.values_detail }}</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section support-section">
+  <div class="container">
+    <div class="section-head" data-reveal><span class="eyebrow">{{ t.services.support_eyebrow }}</span><h2>{{ t.services.support_title }}</h2><p>{{ t.services.support_text }}</p></div>
+    <div class="support-grid">
+      {% for service in t.services.service_cards %}
+      <article class="support-card" data-reveal><span class="support-index">{{ '%02d'|format(loop.index) }}</span><h3>{{ service.title }}</h3><p>{{ service.text }}</p><a href="/{{ lang }}/contact.html">{{ t.services.service_cta }} <span aria-hidden="true">&#8594;</span></a></article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="services-final-cta">
+  <div class="container services-final-cta-inner"><div><span class="eyebrow eyebrow--light">{{ t.services.final_eyebrow }}</span><h2>{{ t.services.final_title }}</h2></div><a class="btn btn-cta" href="/{{ lang }}/contact.html">{{ t.nav.contact }} <span aria-hidden="true">&#8599;</span></a></div>
+</section>
+{% endblock %}

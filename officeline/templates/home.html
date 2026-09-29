@@ -1,0 +1,257 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% include "partials/home-template-1-hero.html" %}
+
+<section class="hero" id="top">
+  <div class="hero-panel hero-panel--bureautique" data-reveal>
+    <div class="hero-panel-bg hero-carousel" data-carousel="bureautique" aria-hidden="true">
+      <div class="hero-carousel-track">
+        <img class="is-active" src="/assets/img/hero-bureautique-1.png" alt="">
+        <img src="/assets/img/hero-bureautique-2.png" alt="">
+        <img src="/assets/img/hero-bureautique-3.png" alt="">
+      </div>
+      <div class="hero-carousel-controls" aria-label="{{ t.nav.bureautique }}">
+        <button type="button" class="hero-carousel-control hero-carousel-prev" aria-label="Previous image">&#8592;</button>
+        <span class="hero-carousel-status"><b>01</b> / 03</span>
+        <button type="button" class="hero-carousel-control hero-carousel-next" aria-label="Next image">&#8594;</button>
+      </div>
+    </div>
+    <div class="hero-panel-content">
+      <span class="eyebrow eyebrow--light">01 · {{ t.hero.eyebrow }}</span>
+      <h1>{{ t.hero.bureautique.title }}</h1>
+      <p>{{ t.hero.bureautique.subtitle }}</p>
+      <a class="btn btn-cta" href="/{{ lang }}/bureautique.html">{{ t.hero.bureautique.cta }}
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+      <div class="hero-strip" aria-hidden="true">
+        {% for f in bureautique.families[:6] %}<span>{{ f.name[lang] or f.name.fr }}</span>{% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-panel hero-panel--equipements" data-reveal>
+    <div class="hero-panel-bg hero-carousel" data-carousel="equipements" aria-hidden="true">
+      <div class="hero-carousel-track">
+        <img class="is-active" src="/assets/img/hero-equipements-1.png" alt="">
+        <img src="/assets/img/hero-equipements-2.png" alt="">
+        <img src="/assets/img/hero-equipements-3.png" alt="">
+      </div>
+      <div class="hero-carousel-controls" aria-label="{{ t.nav.equipements }}">
+        <button type="button" class="hero-carousel-control hero-carousel-prev" aria-label="Previous image">&#8592;</button>
+        <span class="hero-carousel-status"><b>01</b> / 03</span>
+        <button type="button" class="hero-carousel-control hero-carousel-next" aria-label="Next image">&#8594;</button>
+      </div>
+    </div>
+    <div class="hero-panel-content">
+      <span class="eyebrow eyebrow--light">02 · {{ t.hero.eyebrow }}</span>
+      <h1>{{ t.hero.equipements.title }}</h1>
+      <p>{{ t.hero.equipements.subtitle }}</p>
+      <a class="btn btn-cta" href="/{{ lang }}/equipements.html">{{ t.hero.equipements.cta }}
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+      <div class="hero-strip" aria-hidden="true">
+        {% for f in equipements.families %}<span>{{ f.name[lang] or f.name.fr }}</span>{% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section about-section" id="about">
+  <div class="container about-grid">
+    <div class="about-side" data-reveal>
+      <span class="eyebrow">{{ t.about_section.eyebrow }}</span>
+      <div class="side-card">
+        <h3>{{ t.about_section.vision_label }}</h3>
+        <p>{{ t.about_section.vision_text }}</p>
+      </div>
+      <div class="side-card">
+        <h3>{{ t.about_section.mission_label }}</h3>
+        <p>{{ t.about_section.mission_text }}</p>
+      </div>
+      <div class="side-card">
+        <h3>{{ t.about_section.values_label }}</h3>
+        <p>{{ t.about_section.values_text }}</p>
+      </div>
+    </div>
+    <div class="about-main" data-reveal>
+      <h2>{{ t.about_section.title }}</h2>
+      <p>{{ t.about_section.paragraph_1 }}</p>
+      <p>{{ t.about_section.paragraph_2 }}</p>
+      <a class="btn btn-outline" href="/{{ lang }}/contact.html">{{ t.about_section.cta }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section why-section" id="why">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">{{ t.why_section.eyebrow }}</span>
+      <h2>{{ t.why_section.title }}</h2>
+      <p>{{ t.why_section.subtitle }}</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card" data-reveal>
+        <span class="why-num">01</span>
+        <h3>{{ t.why_section.forces_title }}</h3>
+        <p>{{ t.why_section.forces_text }}</p>
+      </div>
+      <div class="why-card" data-reveal>
+        <span class="why-num">02</span>
+        <h3>{{ t.why_section.clients_title }}</h3>
+        <p>{{ t.why_section.clients_text }}</p>
+      </div>
+      <div class="why-card" data-reveal>
+        <span class="why-num">03</span>
+        <h3>{{ t.why_section.services_title }}</h3>
+        <p>{{ t.why_section.services_text }}</p>
+      </div>
+    </div>
+    <div class="why-cta" data-reveal>
+      <a class="btn btn-cta" href="/{{ lang }}/contact.html">{{ t.why_section.cta }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section locations-section" id="locations">
+  <div class="container">
+    <span class="eyebrow" data-reveal>{{ t.locations.eyebrow }}</span>
+    <h2 data-reveal>{{ t.locations.title }}</h2>
+    <div class="locations-grid">
+      {% for loc in company.locations %}
+      <div class="location-card" data-reveal>
+        <div class="map-frame">
+          <iframe title="{{ loc.name }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q={{ loc.lat }},{{ loc.lng }}&z=14&output=embed"></iframe>
+        </div>
+        <h3>{{ loc.name }}</h3>
+        <address>{{ loc.address }}</address>
+        <a class="btn btn-outline btn-sm" href="https://www.google.com/maps?q={{ loc.lat }},{{ loc.lng }}" target="_blank" rel="noopener">
+          {{ 'Itinéraire' if lang=='fr' else ('Get directions' if lang=='en' else 'الاتجاهات') }}
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="stats-section" data-counter-section>
+  <div class="container">
+    <div class="stats-heading" data-reveal>
+      <span class="eyebrow eyebrow--light">{{ t.stats_section.eyebrow }}</span>
+      <h2>{{ t.stats_section.title }}</h2>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-card" data-reveal>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="m9 12-1 9 4-2 4 2-1-9"/></svg>
+        <strong data-counter="30" data-suffix="+">0</strong><span>{{ t.stats_section.years }}</span>
+      </div>
+      <div class="stat-card" data-reveal>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>
+        <strong data-counter="2000" data-suffix="+">0</strong><span>{{ t.stats_section.distributors }}</span>
+      </div>
+      <div class="stat-card">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20v-1a6 6 0 0 1 12 0v1M15 15a5 5 0 0 1 6 4v1"/></svg>
+        <strong data-counter="80" data-suffix="+">0</strong><span>{{ t.stats_section.employees }}</span>
+      </div>
+      <div class="stat-card">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z"/><path d="m4 7.5 8 4.5 8-4.5M12 12v9"/></svg>
+        <strong data-counter="4000" data-suffix="+">0</strong><span>{{ t.stats_section.products }}</span>
+      </div>
+      <div class="stat-card">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a3 3 0 0 1 3 3c0 1.2-.7 2.2-1.6 2.7A6 6 0 0 1 18 14v5H6v-5a6 6 0 0 1 4.6-5.3A3 3 0 0 1 12 3Z"/><path d="M4 21h16M9 14h6"/></svg>
+        <strong data-counter="1000" data-suffix="+">0</strong><span>{{ t.stats_section.machines }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section partners-section" data-reveal>
+  <div class="container">
+    <span class="eyebrow">{{ t.partners.eyebrow }}</span>
+    <h2 class="partners-title">{{ t.partners.title }}</h2>
+    <p class="partners-sub">{{ t.partners.subtitle }}</p>
+    <div class="brand-marquee" aria-label="{{ t.partners.title }}">
+      <div class="brand-track">
+        {% for copy in [1, 2] %}
+        {% for brand in company.partner_logos %}
+        <div class="brand-logo-card" {% if copy == 2 %}aria-hidden="true"{% endif %}>
+          <img src="/assets/img/{{ brand.image }}" alt="{{ brand.name }}">
+          <strong>{{ brand.name }}</strong>
+          <span>{{ brand.description }}</span>
+        </div>
+        {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact-section contact-home-section" id="contact-home">
+  <div class="container contact-home-grid">
+    <aside class="contact-home-info" data-reveal>
+      <span class="eyebrow eyebrow--light">{{ t.contact_section.eyebrow }}</span>
+      <h2>{{ t.contact_section.home_title }}</h2>
+      <p>{{ t.contact_section.home_text }}</p>
+      <div class="contact-home-benefits">
+        <h3>{{ t.contact_page.why_title }}</h3>
+        <ul>{% for item in t.contact_page.why_items %}<li>{{ item }}</li>{% endfor %}</ul>
+      </div>
+      <div class="contact-home-testimonial" data-testimonial-carousel role="region" aria-roledescription="carousel" aria-label="{{ t.contact_section.testimonials_label }}" tabindex="0">
+        <div class="contact-home-testimonial-stage" aria-live="off">
+          {% for testimonial in t.contact_section.testimonials %}
+          <figure class="contact-home-testimonial-slide" role="group" aria-roledescription="slide" aria-label="{{ t.contact_section.testimonial_slide }} {{ loop.index }}" {% if not loop.first %}hidden{% endif %}>
+            <span class="contact-home-quote-mark" aria-hidden="true">“</span>
+            <blockquote>{{ testimonial.quote }}</blockquote>
+            <figcaption><strong>{{ testimonial.name }}</strong><span>{{ testimonial.role }}</span></figcaption>
+          </figure>
+          {% endfor %}
+        </div>
+        <div class="contact-home-testimonial-controls">
+          <button class="contact-home-carousel-arrow" type="button" data-testimonial-previous aria-label="{{ t.contact_section.previous_testimonial }}">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <div class="contact-home-carousel-dots" role="group" aria-label="{{ t.contact_section.testimonial_slides }}">
+            {% for testimonial in t.contact_section.testimonials %}
+            <button type="button" data-testimonial-dot="{{ loop.index0 }}" aria-label="{{ t.contact_section.testimonial_slide }} {{ loop.index }}" aria-pressed="{{ 'true' if loop.first else 'false' }}"></button>
+            {% endfor %}
+          </div>
+          <button class="contact-home-carousel-arrow" type="button" data-testimonial-next aria-label="{{ t.contact_section.next_testimonial }}">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+          <button class="contact-home-carousel-pause" type="button" data-testimonial-pause data-pause-label="{{ t.contact_section.pause_testimonials }}" data-resume-label="{{ t.contact_section.resume_testimonials }}" aria-label="{{ t.contact_section.pause_testimonials }}" aria-pressed="false">
+            <svg class="is-pause-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg>
+            <svg class="is-play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 12 7-12 7V5Z"/></svg>
+          </button>
+        </div>
+      </div>
+    </aside>
+    <div class="contact-home-form" data-reveal>
+      <h2>{{ t.contact_page.form_title }}</h2>
+      <p>{{ t.contact_page.form_text }}</p>
+      <form class="quote-form" id="quoteForm" novalidate>
+        <div class="form-row">
+          <label>{{ t.contact_section.form.name }} *<input type="text" name="name" required></label>
+          <label>{{ t.contact_section.form.company }}<input type="text" name="company"></label>
+        </div>
+        <div class="form-row">
+          <label>{{ t.contact_section.form.email }} *<input type="email" name="email" required></label>
+          <label>{{ t.contact_section.form.phone }} *<input type="tel" name="phone" required></label>
+        </div>
+        <label>{{ t.contact_section.form.subject }} *
+          <select name="subject" required>
+            <option value="" selected disabled>{{ t.contact_section.subject_placeholder }}</option>
+            {% for subject in t.contact_section.subjects %}<option value="{{ subject }}">{{ subject }}</option>{% endfor %}
+          </select>
+        </label>
+        <label>{{ t.contact_section.form.message }} *<textarea name="message" rows="3" required></textarea></label>
+        <label class="consent-row"><input type="checkbox" name="consent" required><span>{{ t.contact_section.form.consent }}</span></label>
+        <button type="submit" class="btn btn-cta">{{ t.contact_page.form_submit }}</button>
+        <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
+{% block scripts %}<script src="/assets/js/form.js" defer></script>{% endblock %}

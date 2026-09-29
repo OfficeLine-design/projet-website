@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}" dir="{{ 'rtl' if lang == 'ar' else 'ltr' }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ meta_title }}</title>
+<meta name="description" content="{{ meta_description }}">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="{{ company.domain }}/{{ lang }}/{{ page_path }}">
+{% for l in ['fr','en','ar'] %}
+<link rel="alternate" hreflang="{{ l }}" href="{{ company.domain }}/{{ l }}/{{ page_path }}">
+{% endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ company.domain }}/fr/{{ page_path }}">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Office Line">
+<meta property="og:title" content="{{ meta_title }}">
+<meta property="og:description" content="{{ meta_description }}">
+<meta property="og:url" content="{{ company.domain }}/{{ lang }}/{{ page_path }}">
+<meta property="og:image" content="{{ company.domain }}/assets/img/og-cover.jpg">
+<meta property="og:locale" content="{{ {'fr':'fr_FR','en':'en_US','ar':'ar_DZ'}[lang] }}">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon-official.png">
+<link rel="apple-touch-icon" sizes="192x192" href="/assets/img/favicon-official.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&family=Cairo:wght@500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/assets/css/style.css">
+{% if lang == 'ar' %}<link rel="stylesheet" href="/assets/css/rtl.css">{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Office Line",
+  "legalName": "SARL Office Line",
+  "url": "{{ company.domain }}",
+  "logo": "{{ company.domain }}/assets/img/logo.svg",
+  "foundingDate": "1993",
+  "description": "{{ meta_description }}",
+  "address": [
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "Zone d'activité N°01",
+      "addressLocality": "Bordj Menaiel, Boumerdès",
+      "addressCountry": "DZ"
+    },
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "Zone d'activité KAIDI, Lot N°55",
+      "addressLocality": "Bordj El Kiffan, Alger",
+      "addressCountry": "DZ"
+    }
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+213-24-98-31-23",
+      "contactType": "sales",
+      "email": "commercial@officeline-dz.com",
+      "areaServed": "DZ",
+      "availableLanguage": ["French","Arabic","English"]
+    }
+  ],
+  "sameAs": ["{{ company.social.facebook }}", "{{ company.social.linkedin }}", "{{ company.social.instagram }}", "{{ company.social.TikTok }}"]
+}
+</script>
+{% block structured_data %}{% endblock %}
+</head>
+<body class="lang-{{ lang }} page-{{ page_id }}">
+<a class="skip-link" href="#main">{{ 'Aller au contenu' if lang=='fr' else ('Skip to content' if lang=='en' else 'الانتقال إلى المحتوى') }}</a>
+
+{% include "partials/header.html" %}
+
+<main id="main">
+{% block content %}{% endblock %}
+</main>
+
+{% include "partials/footer.html" %}
+
+<script src="/assets/js/main.js" defer></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

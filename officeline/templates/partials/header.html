@@ -1,0 +1,103 @@
+<header class="site-header" id="siteHeader">
+  <div class="header-inner container">
+    <a href="/{{ lang }}/index.html" class="brand" aria-label="Office Line — {{ 'Accueil' if lang=='fr' else ('Home' if lang=='en' else 'الرئيسية') }}">
+      <img class="brand-logo" src="/assets/img/logo-official.png" alt="Office Line">
+    </a>
+
+    <nav class="main-nav" aria-label="Navigation principale">
+      <ul>
+        <li><a href="/{{ lang }}/index.html#top">{{ t.nav.home }}</a></li>
+
+        <li class="has-mega">
+          <a href="/{{ lang }}/bureautique.html">{{ t.nav.bureautique }}</a>
+          <div class="mega-menu">
+            <ul class="mega-grid">
+              {% for f in bureautique.families %}
+              <li><a href="/{{ lang }}/bureautique.html#{{ f.id }}"><span class="mega-dot" style="background:{{ f.color }}"></span>{{ f.name[lang] or f.name.fr }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </li>
+
+        <li class="has-mega">
+          <a href="/{{ lang }}/equipements.html">{{ t.nav.equipements }}</a>
+          <div class="mega-menu">
+            <ul class="mega-grid">
+              {% for f in equipements.families %}
+              <li><a href="/{{ lang }}/equipements.html#{{ f.id }}"><span class="mega-dot" style="background:{{ f.color }}"></span>{{ f.name[lang] or f.name.fr }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </li>
+
+        <li><a href="/{{ lang }}/services.html">{{ t.nav.services }}</a></li>
+
+        <li class="has-mega">
+          <a href="/{{ lang }}/index.html#about">{{ t.nav.about }}</a>
+          <div class="mega-menu mega-menu--simple">
+            <ul>
+              <li><a href="/{{ lang }}/index.html#about">{{ t.nav.about_who }}</a></li>
+              <li><a href="/{{ lang }}/index.html#why">{{ t.nav.about_why }}</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li><a href="/{{ lang }}/contact.html">{{ t.nav.contact }}</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-tools">
+      <form class="search-form" role="search" action="/{{ lang }}/recherche.html" method="get">
+        <input type="search" name="q" placeholder="{{ t.nav.search_placeholder }}" aria-label="{{ t.nav.search_placeholder }}">
+        <button type="submit" aria-label="Search">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+      </form>
+
+      <div class="lang-switch">
+        <button class="lang-switch-trigger" type="button" aria-label="Changer de langue" aria-haspopup="menu" aria-expanded="false" aria-controls="languageMenu">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+          <span>{{ lang|upper }}</span>
+          <svg class="lang-switch-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg>
+        </button>
+        <div class="lang-menu" id="languageMenu" role="menu" aria-label="Choisir une langue">
+          {% for l in ['fr','en','ar'] %}
+          <a href="/{{ l }}/{{ page_path }}" class="{{ 'active' if l == lang else '' }}" lang="{{ l }}" {% if l == lang %}aria-current="page"{% endif %} role="menuitem">
+            <span>{{ {'fr':'Français','en':'English','ar':'العربية'}[l] }}</span>
+            {% if l == lang %}<span class="lang-menu-indicator" aria-hidden="true"></span>{% endif %}
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+
+      <a class="login-link" href="/{{ lang }}/espace-distributeurs.html">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <span>{{ t.nav.login }}</span>
+      </a>
+
+      <a class="btn btn-cta btn-sm" href="/{{ lang }}/contact.html">{{ t.nav.quote }}</a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-nav" id="mobileNav">
+    <ul>
+      <li><a href="/{{ lang }}/index.html">{{ t.nav.home }}</a></li>
+      <li><a href="/{{ lang }}/bureautique.html">{{ t.nav.bureautique }}</a></li>
+      <li><a href="/{{ lang }}/equipements.html">{{ t.nav.equipements }}</a></li>
+      <li><a href="/{{ lang }}/services.html">{{ t.nav.services }}</a></li>
+      <li><a href="/{{ lang }}/index.html#about">{{ t.nav.about_who }}</a></li>
+      <li><a href="/{{ lang }}/index.html#why">{{ t.nav.about_why }}</a></li>
+      <li><a href="/{{ lang }}/contact.html">{{ t.nav.contact }}</a></li>
+      <li><a href="/{{ lang }}/espace-distributeurs.html">{{ t.nav.login }}</a></li>
+    </ul>
+    <div class="lang-switch lang-switch--mobile">
+      {% for l in ['ar','fr','en'] %}
+      <a href="/{{ l }}/{{ page_path }}" class="{{ 'active' if l == lang else '' }}">{{ l|upper }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</header>

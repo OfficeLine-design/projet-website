@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://officeline-dz.com/sitemap.xml

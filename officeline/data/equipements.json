@@ -1,0 +1,321 @@
+{
+  "slug": "equipements",
+  "families": [
+    {
+      "id": "imprimantes-grand-format",
+      "icon": "printer",
+      "color": "#333366",
+      "name": {
+        "fr": "Imprimantes grand format",
+        "en": "Wide-Format Printers",
+        "ar": "طابعات كبيرة الحجم"
+      },
+      "tagline": {
+        "fr": "Distributeur officiel Roland DG depuis 2008.",
+        "en": "Official Roland DG distributor since 2008.",
+        "ar": "موزع رسمي لـ Roland DG منذ 2008."
+      },
+      "subcategories": [
+        {
+          "fr": "Imprimantes et découpe éco-solvant",
+          "en": "Eco-solvent print & cut printers",
+          "ar": "طابعات وآلات قطع بالحبر البيئي (Eco-Solvent)",
+          "models": [
+            "VersaSTUDIO BN2-20",
+            "trueVIS SG3-540",
+            "trueVIS VG3 540/640",
+            "trueVIS XG-640"
+          ]
+        },
+        {
+          "fr": "Imprimantes éco-solvant",
+          "en": "Eco-solvent printers",
+          "ar": "طابعات بالحبر البيئي (Eco-Solvent)",
+          "models": [
+            "DGXPRESS ER-641",
+            "DGXPRESS ER-642",
+            "trueVIS XP-640"
+          ]
+        },
+        {
+          "fr": "Imprimantes et découpe UV",
+          "en": "UV print & cut printers",
+          "ar": "طابعات وآلات قطع بالأشعة فوق البنفسجية (UV)",
+          "models": [
+            "DGXPRESS Série UG",
+            "trueVIS Série LG",
+            "trueVIS Série MG"
+          ]
+        },
+        {
+          "fr": "Imprimantes UV à plat",
+          "en": "Flatbed UV printers",
+          "ar": "طابعات UV مسطحة",
+          "models": [
+            "VersaSTUDIO Série BD",
+            "VersaSTUDIO Série MO",
+            "VersaSTUDIO Série LD/EO-i",
+            "VersaSTUDIO EU-1000MF"
+          ]
+        },
+        {
+          "fr": "Imprimantes DTF",
+          "en": "DTF printers",
+          "ar": "طابعات DTF",
+          "models": [
+            "VersaSTUDIO BY-20",
+            "TY-300"
+          ]
+        },
+        {
+          "fr": "Imprimantes surface en relief",
+          "en": "Raised-surface printers",
+          "ar": "طابعات السطح البارز",
+          "models": [
+            "DIMENSE DA-640",
+            "DIMENSOR 1"
+          ]
+        },
+        {
+          "fr": "Imprimantes latex",
+          "en": "Latex printers",
+          "ar": "طابعات لاتكس",
+          "models": [
+            "trueVIS AP-640"
+          ]
+        },
+        {
+          "fr": "Encres",
+          "en": "Inks",
+          "ar": "أحبار",
+          "models": [
+            "INKLINE",
+            "INKU",
+            "TR2",
+            "ECO-SOL-MAX 3",
+            "ECO-UV",
+            "EJ",
+            "TEXART SBL3"
+          ]
+        },
+        {
+          "fr": "Options et accessoires",
+          "en": "Options and accessories",
+          "ar": "خيارات وملحقات",
+          "models": [
+            "Séchoire supplémentaire",
+            "Tourne cylindre",
+            "Pack de maintenance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plotters-decoupe",
+      "icon": "plotter",
+      "color": "#6699CC",
+      "name": {
+        "fr": "Plotters de découpe",
+        "en": "Cutting Plotters",
+        "ar": "آلات قطع بلوتر"
+      },
+      "tagline": {
+        "fr": "Découpe de précision pour enseignes et adhésifs.",
+        "en": "Precision cutting for signage and adhesives.",
+        "ar": "قطع دقيق للافتات والملصقات اللاصقة."
+      },
+      "subcategories": [
+        {
+          "fr": "VersaSTUDIO",
+          "en": "VersaSTUDIO",
+          "ar": "VersaSTUDIO",
+          "models": [
+            "VersaSTUDIO GS2-24"
+          ]
+        },
+        {
+          "fr": "CAMM-1 Série GR2",
+          "en": "CAMM-1 GR2 Series",
+          "ar": "سلسلة CAMM-1 GR2",
+          "models": [
+            "CAMM-1 GR2-540",
+            "CAMM-1 GR2-640"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gravure-laser",
+      "icon": "laser",
+      "color": "#6699CC",
+      "name": {
+        "fr": "Machines de gravure, découpe & marquage laser",
+        "en": "Laser Engraving, Cutting & Marking Machines",
+        "ar": "آلات الحفر والقطع والوسم بالليزر"
+      },
+      "tagline": {
+        "fr": "Distributeur exclusif Trotec en Algérie depuis 1997.",
+        "en": "Exclusive Trotec distributor in Algeria since 1997.",
+        "ar": "موزع حصري لـ Trotec في الجزائر منذ 1997."
+      },
+      "subcategories": [
+        {
+          "fr": "Machines de gravure et de découpe laser — Série Speedy",
+          "en": "Laser engraving & cutting machines — Speedy Series",
+          "ar": "آلات الحفر والقطع بالليزر — سلسلة Speedy",
+          "models": [
+            "Speedy 50",
+            "Speedy 100",
+            "Speedy300",
+            "Speedy360",
+            "Speedy400"
+          ]
+        },
+        {
+          "fr": "Machines de marquage laser — Série SpeedMarker",
+          "en": "Laser marking machines — SpeedMarker Series",
+          "ar": "آلات الوسم بالليزر — سلسلة SpeedMarker",
+          "models": [
+            "SpeedMarker 50",
+            "SpeedMarker 300",
+            "SpeedMarker 700",
+            "SpeedMarker 1300",
+            "SpeedMarker 1350",
+            "SpeedMarker 1600"
+          ]
+        },
+        {
+          "fr": "Machines de marquage laser — Série U",
+          "en": "Laser marking machines — U Series",
+          "ar": "آلات الوسم بالليزر — سلسلة U",
+          "models": [
+            "U50",
+            "U300"
+          ]
+        },
+        {
+          "fr": "Matériaux et applications",
+          "en": "Materials and applications",
+          "ar": "المواد والتطبيقات",
+          "models": [
+            "Découpe et gravure sur acrylique",
+            "Découpe et gravure sur papier",
+            "Découpe laser de la mousse",
+            "Découpe et gravure de tissus",
+            "Gravure sur verre",
+            "Découpe laser sur aluminium",
+            "Découpe et gravure de bois",
+            "Découpe et marquage des plastiques",
+            "Gravure sur pierre",
+            "Marquage métallique"
+          ]
+        },
+        {
+          "fr": "Options et accessoires",
+          "en": "Options and accessories",
+          "ar": "خيارات وملحقات",
+          "models": [
+            "Extracteurs (Atmos Nano, Atmos Cube, Atmos Pure 300, Atmos Pure 600)",
+            "Turbine",
+            "Tourne cylindre",
+            "Table de découpe",
+            "Lentilles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gravure-mecanique",
+      "icon": "engraving",
+      "color": "#333366",
+      "name": {
+        "fr": "Machines de gravure mécanique & décoration",
+        "en": "Mechanical Engraving & Decoration Machines",
+        "ar": "آلات الحفر الميكانيكي والزخرفة"
+      },
+      "tagline": {
+        "fr": "Gravure mécanique 2D/3D de précision.",
+        "en": "Precision 2D/3D mechanical engraving.",
+        "ar": "حفر ميكانيكي دقيق ثنائي وثلاثي الأبعاد."
+      },
+      "subcategories": [
+        {
+          "fr": "VersaSTUDIO MPX-90S",
+          "en": "VersaSTUDIO MPX-90S",
+          "ar": "VersaSTUDIO MPX-90S",
+          "models": []
+        },
+        {
+          "fr": "DE-3",
+          "en": "DE-3",
+          "ar": "DE-3",
+          "models": []
+        }
+      ]
+    },
+    {
+      "id": "consommables",
+      "icon": "consumables",
+      "color": "#6699CC",
+      "name": {
+        "fr": "Consommables",
+        "en": "Consumables",
+        "ar": "المستهلكات"
+      },
+      "tagline": {
+        "fr": "Encres, matières à graver et supports certifiés.",
+        "en": "Inks, engraving materials and certified media.",
+        "ar": "أحبار ومواد للحفر ووسائط معتمدة."
+      },
+      "subcategories": [
+        {
+          "fr": "Encres",
+          "en": "Inks",
+          "ar": "أحبار",
+          "models": [
+            "ECO-SOL-MAX 3",
+            "TR2",
+            "ECO-UV",
+            "EJ",
+            "TEXART SBL3",
+            "INKLINE",
+            "INKU"
+          ]
+        },
+        {
+          "fr": "Matières à graver",
+          "en": "Engraving materials",
+          "ar": "مواد الحفر",
+          "models": [
+            "Flexy",
+            "Delophane",
+            "Bois"
+          ]
+        },
+        {
+          "fr": "Supports d'impression",
+          "en": "Print media",
+          "ar": "وسائط الطباعة",
+          "models": [
+            "Bâches",
+            "Autocollant",
+            "Flex imperméable",
+            "Flex de découpe"
+          ]
+        },
+        {
+          "fr": "Gomme laser",
+          "en": "Laser rubber",
+          "ar": "مطاط الحفر بالليزر",
+          "models": []
+        },
+        {
+          "fr": "Accessoires",
+          "en": "Accessories",
+          "ar": "ملحقات",
+          "models": []
+        }
+      ]
+    }
+  ]
+}

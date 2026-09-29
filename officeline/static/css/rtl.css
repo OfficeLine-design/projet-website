@@ -1,0 +1,15 @@
+/* RTL overrides — loaded only on html[lang="ar"] */
+
+.eyebrow::before { order: 2; }
+.search-form { padding: 6px 14px 6px 6px; }
+.mega-grid { direction: rtl; }
+.brand-track { animation-direction: reverse; }
+
+.hero-panel-content { text-align: right; }
+.family-head { border-inline-start: none; border-inline-end: 6px solid var(--fam-color, var(--navy)); }
+.side-card { border-inline-start: none; border-inline-end: 4px solid var(--sky); }
+
+.consent-row { flex-direction: row !important; }
+
+/* Mirror chevron icons that imply LTR direction */
+.btn svg polyline, .btn svg line { transform-origin: center; }

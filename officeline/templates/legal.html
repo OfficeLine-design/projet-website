@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-hero page-hero--compact">
+  <div class="container">
+    <h1 data-reveal>{{ legal_title }}</h1>
+  </div>
+</section>
+<section class="section legal-page">
+  <div class="container legal-content" data-reveal>
+    {% for para in legal_body %}
+    <p>{{ para }}</p>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

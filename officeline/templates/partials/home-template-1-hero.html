@@ -1,0 +1,30 @@
+<section class="concept-hero concept-hero--editorial homepage-template-hero">
+  <div class="container concept-hero-grid">
+    <div class="concept-hero-copy">
+      <span class="eyebrow">{{ t.hero.eyebrow }}</span>
+      <h1>{{ t.hero.welcome_line_1 }}<br>{{ t.hero.welcome_line_2 }}</h1>
+      <p>{{ t.hero.welcome_text }}</p>
+      <div class="concept-actions">
+        <a class="btn btn-cta" href="/{{ lang }}/bureautique.html">{{ t.hero.bureautique_cta }} <span aria-hidden="true">→</span></a>
+        <a class="btn btn-cta" href="/{{ lang }}/equipements.html">{{ t.hero.equipements_cta }} <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="concept-proof">
+        <div class="concept-stat"><strong dir="ltr">30+</strong><span>{{ t.hero.years_label }}</span></div>
+        <i></i>
+        <div class="concept-stat"><strong dir="ltr">4 000+</strong><span>{{ t.hero.products_label }}</span></div>
+        <i></i>
+        <div class="concept-stat"><strong dir="ltr">2 000+</strong><span>{{ t.hero.distributors_label }}</span></div>
+      </div>
+    </div>
+    <div class="concept-hero-video-frame">
+      <video class="concept-hero-video" autoplay muted loop playsinline preload="metadata" aria-label="Office Line">
+        <source src="/assets/img/officeline-algerie-1366x768.mp4" type="video/mp4">
+      </video>
+      <button class="video-sound-toggle" type="button" data-video-sound aria-pressed="false" aria-label="Activer le son">
+        <svg class="sound-icon sound-icon--muted" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="m19 9-6 6m0-6 6 6"/></svg>
+        <svg class="sound-icon sound-icon--on" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>
+        <span data-video-sound-label>Activer le son</span>
+      </button>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,398 @@
+{
+  "slug": "bureautique",
+  "families": [
+    {
+      "id": "cachets-folioteurs",
+      "icon": "stamp",
+      "color": "#6699CC",
+      "name": {
+        "fr": "Cachets & Folioteurs",
+        "en": "Stamps & Numbering Machines",
+        "ar": "الأختام وآلات الترقيم"
+      },
+      "tagline": {
+        "fr": "Tampons Trodat & folioteurs Reiner, précision et automatisation.",
+        "en": "Trodat stamps & Reiner numbering machines, precision and automation.",
+        "ar": "أختام Trodat وآلات ترقيم Reiner، دقة وأتمتة."
+      },
+      "subcategories": [
+        {
+          "fr": "Tampon métallique à encrage automatique",
+          "en": "Self-inking metal stamp",
+          "ar": "ختم معدني ذاتي الحبر"
+        },
+        {
+          "fr": "Tampon plastique à encrage automatique",
+          "en": "Self-inking plastic stamp",
+          "ar": "ختم بلاستيكي ذاتي الحبر"
+        },
+        {
+          "fr": "Tampon de poche",
+          "en": "Pocket stamp",
+          "ar": "ختم جيب"
+        },
+        {
+          "fr": "Pince à sec",
+          "en": "Embossing seal press",
+          "ar": "كماشة الختم الجاف"
+        },
+        {
+          "fr": "Cassette d'encrage",
+          "en": "Ink pad cassette",
+          "ar": "خرطوشة الحبر"
+        },
+        {
+          "fr": "Matière première",
+          "en": "Raw materials",
+          "ar": "المواد الأولية"
+        },
+        {
+          "fr": "Divers",
+          "en": "Miscellaneous",
+          "ar": "متنوعات"
+        }
+      ]
+    },
+    {
+      "id": "coffres-forts",
+      "icon": "safe",
+      "color": "#333366",
+      "name": {
+        "fr": "Coffres-forts, Caisses & Boîtes à clés",
+        "en": "Safes, Cash Boxes & Key Cabinets",
+        "ar": "الخزائن الحديدية وصناديق النقود وخزائن المفاتيح"
+      },
+      "tagline": {
+        "fr": "Executive Safe : stockage sécurisé et résistant au feu.",
+        "en": "Executive Safe: secure, fire-resistant storage.",
+        "ar": "Executive Safe: تخزين آمن ومقاوم للحريق."
+      },
+      "subcategories": [
+        {
+          "fr": "Mini coffre-fort",
+          "en": "Mini safe",
+          "ar": "خزينة صغيرة"
+        },
+        {
+          "fr": "Mini coffre-fort professionnel",
+          "en": "Professional mini safe",
+          "ar": "خزينة صغيرة احترافية"
+        },
+        {
+          "fr": "Grand coffre-fort professionnel",
+          "en": "Large professional safe",
+          "ar": "خزينة احترافية كبيرة"
+        },
+        {
+          "fr": "Mini coffre-fort biométrique",
+          "en": "Biometric mini safe",
+          "ar": "خزينة صغيرة بالبصمة"
+        },
+        {
+          "fr": "Coffre-fort pour chambre d'hôtel",
+          "en": "Hotel room safe",
+          "ar": "خزينة لغرف الفنادق"
+        },
+        {
+          "fr": "Coffre-fort de dépôt",
+          "en": "Deposit safe",
+          "ar": "خزينة إيداع"
+        },
+        {
+          "fr": "Coffre-fort résistant au feu et à l'eau",
+          "en": "Fire and water resistant safe",
+          "ar": "خزينة مقاومة للحريق والماء"
+        },
+        {
+          "fr": "Coffre-fort ignifuge professionnel",
+          "en": "Professional fireproof safe",
+          "ar": "خزينة احترافية مقاومة للحريق"
+        },
+        {
+          "fr": "Coffre-fort pour pistolet",
+          "en": "Handgun safe",
+          "ar": "خزينة للمسدس"
+        },
+        {
+          "fr": "Coffre-fort pour armes à feu",
+          "en": "Firearm safe",
+          "ar": "خزينة للأسلحة النارية"
+        },
+        {
+          "fr": "Coffre-fort ignifuge pour armes à feu",
+          "en": "Fireproof firearm safe",
+          "ar": "خزينة مقاومة للحريق للأسلحة النارية"
+        },
+        {
+          "fr": "Coffre-fort intelligent",
+          "en": "Smart safe",
+          "ar": "خزينة ذكية"
+        },
+        {
+          "fr": "Armoire à clés",
+          "en": "Key cabinet",
+          "ar": "خزانة مفاتيح"
+        },
+        {
+          "fr": "Caisse à monnaie",
+          "en": "Cash box",
+          "ar": "صندوق النقود"
+        }
+      ]
+    },
+    {
+      "id": "destructeurs",
+      "icon": "shredder",
+      "color": "#6699CC",
+      "name": {
+        "fr": "Destructeurs de documents",
+        "en": "Document Shredders",
+        "ar": "آلات إتلاف الوثائق"
+      },
+      "tagline": {
+        "fr": "Gamme Rexel, conformes à la loi 18-07.",
+        "en": "Rexel range, compliant with law 18-07.",
+        "ar": "مجموعة Rexel، متوافقة مع القانون 18-07."
+      },
+      "subcategories": [
+        {
+          "fr": "Destructeurs Optimum Auto+",
+          "en": "Optimum Auto+ shredders",
+          "ar": "آلات إتلاف Optimum Auto+"
+        },
+        {
+          "fr": "Petits destructeurs",
+          "en": "Small shredders",
+          "ar": "آلات إتلاف صغيرة"
+        },
+        {
+          "fr": "Destructeurs de bureaux",
+          "en": "Office shredders",
+          "ar": "آلات إتلاف مكتبية"
+        },
+        {
+          "fr": "Destructeurs de bureaux partagés (départementaux)",
+          "en": "Shared office (departmental) shredders",
+          "ar": "آلات إتلاف للمكاتب المشتركة (على مستوى الأقسام)"
+        },
+        {
+          "fr": "Destructeurs format large",
+          "en": "Wide-format shredders",
+          "ar": "آلات إتلاف بحجم كبير"
+        },
+        {
+          "fr": "Accessoires pour destructeurs de documents",
+          "en": "Shredder accessories",
+          "ar": "ملحقات آلات إتلاف الوثائق"
+        }
+      ]
+    },
+    {
+      "id": "cisailles-decoupe",
+      "icon": "cutter",
+      "color": "#6699CC",
+      "name": {
+        "fr": "Cisailles & Découpe",
+        "en": "Shears & Cutting",
+        "ar": "المقصات وآلات القطع"
+      },
+      "tagline": {
+        "fr": "Massicots professionnels et semi-professionnels.",
+        "en": "Professional and semi-professional guillotines.",
+        "ar": "آلات قطع احترافية وشبه احترافية."
+      },
+      "subcategories": [
+        {
+          "fr": "Cisailles",
+          "en": "Shears",
+          "ar": "مقصات"
+        },
+        {
+          "fr": "Coupeuses",
+          "en": "Cutters",
+          "ar": "آلات قطع"
+        },
+        {
+          "fr": "Accessoires",
+          "en": "Accessories",
+          "ar": "ملحقات"
+        }
+      ]
+    },
+    {
+      "id": "reliure",
+      "icon": "binding",
+      "color": "#333366",
+      "name": {
+        "fr": "Reliure & Assemblage",
+        "en": "Binding & Finishing",
+        "ar": "التجليد والتجميع"
+      },
+      "tagline": {
+        "fr": "CombBind, WireBind, ThermaBind et plus encore.",
+        "en": "CombBind, WireBind, ThermaBind and more.",
+        "ar": "CombBind و WireBind و ThermaBind وأكثر."
+      },
+      "subcategories": [
+        {
+          "fr": "CombBind — reliure peignes plastique",
+          "en": "CombBind — plastic comb binding",
+          "ar": "CombBind — تجليد بالمشط البلاستيكي"
+        },
+        {
+          "fr": "WireBind — reliure peignes métal",
+          "en": "WireBind — metal wire binding",
+          "ar": "WireBind — تجليد بالسلك المعدني"
+        },
+        {
+          "fr": "MultiBind — reliure mixte",
+          "en": "MultiBind — mixed binding",
+          "ar": "MultiBind — تجليد مختلط"
+        },
+        {
+          "fr": "SureBind",
+          "en": "SureBind",
+          "ar": "SureBind"
+        },
+        {
+          "fr": "ThermaBind",
+          "en": "ThermaBind",
+          "ar": "ThermaBind"
+        },
+        {
+          "fr": "ClickBind",
+          "en": "ClickBind",
+          "ar": "ClickBind"
+        },
+        {
+          "fr": "ImpressBind",
+          "en": "ImpressBind",
+          "ar": "ImpressBind"
+        },
+        {
+          "fr": "Consommables",
+          "en": "Consumables",
+          "ar": "المستهلكات"
+        }
+      ]
+    },
+    {
+      "id": "plastification",
+      "icon": "laminate",
+      "color": "#6699CC",
+      "name": {
+        "fr": "Plastification & Identification",
+        "en": "Laminating & ID",
+        "ar": "التغليف البلاستيكي وبطاقات الهوية"
+      },
+      "tagline": {
+        "fr": "Plastifieuses à pochettes et automatiques.",
+        "en": "Pouch and automatic laminators.",
+        "ar": "آلات تغليف بالأكياس وآلات تغليف أوتوماتيكية."
+      },
+      "subcategories": [
+        {
+          "fr": "Plastifieuses à pochettes",
+          "en": "Pouch laminators",
+          "ar": "آلات تغليف بالأكياس"
+        },
+        {
+          "fr": "Plastifieuses automatiques",
+          "en": "Automatic laminators",
+          "ar": "آلات تغليف أوتوماتيكية"
+        },
+        {
+          "fr": "Fournitures de plastification",
+          "en": "Laminating supplies",
+          "ar": "لوازم التغليف البلاستيكي"
+        }
+      ]
+    },
+    {
+      "id": "communication-visuelle",
+      "icon": "board",
+      "color": "#6699CC",
+      "name": {
+        "fr": "Communication visuelle",
+        "en": "Visual Communication",
+        "ar": "الاتصال البصري"
+      },
+      "tagline": {
+        "fr": "Tableaux blancs, écrans et supports de projection.",
+        "en": "Whiteboards, screens and projection mounts.",
+        "ar": "سبورات بيضاء، شاشات وحوامل عرض."
+      },
+      "subcategories": [
+        {
+          "fr": "Tableaux blancs",
+          "en": "Whiteboards",
+          "ar": "سبورات بيضاء"
+        },
+        {
+          "fr": "Écrans de projection",
+          "en": "Projection screens",
+          "ar": "شاشات عرض"
+        },
+        {
+          "fr": "Support pour vidéoprojecteur",
+          "en": "Projector mount",
+          "ar": "حامل جهاز العرض"
+        }
+      ]
+    },
+    {
+      "id": "machines-calculer",
+      "icon": "calculator",
+      "color": "#333366",
+      "name": {
+        "fr": "Machines à calculer",
+        "en": "Calculating Machines",
+        "ar": "آلات الحساب"
+      },
+      "tagline": {
+        "fr": "Calculatrices imprimantes IBICO, pro & semi-pro.",
+        "en": "IBICO printing calculators, pro & semi-pro.",
+        "ar": "آلات حاسبة طابعة من IBICO، احترافية وشبه احترافية."
+      },
+      "subcategories": [
+        {
+          "fr": "Calculatrices imprimantes professionnelles",
+          "en": "Professional printing calculators",
+          "ar": "آلات حاسبة طابعة احترافية"
+        },
+        {
+          "fr": "Calculatrices imprimantes semi-professionnelles",
+          "en": "Semi-professional printing calculators",
+          "ar": "آلات حاسبة طابعة شبه احترافية"
+        }
+      ]
+    },
+    {
+      "id": "agrafage",
+      "icon": "stapler",
+      "color": "#6699CC",
+      "name": {
+        "fr": "Agrafage & Perforation",
+        "en": "Stapling & Punching",
+        "ar": "التدبيس والتثقيب"
+      },
+      "tagline": {
+        "fr": "Agrafeuses de bureau et agrafes toutes capacités.",
+        "en": "Office staplers and staples of all capacities.",
+        "ar": "دباسات مكتبية ودبابيس بجميع السعات."
+      },
+      "subcategories": [
+        {
+          "fr": "Agrafeuses de bureau",
+          "en": "Office staplers",
+          "ar": "دباسات مكتبية"
+        },
+        {
+          "fr": "Agrafes",
+          "en": "Staples",
+          "ar": "دبابيس"
+        }
+      ]
+    }
+  ]
+}
